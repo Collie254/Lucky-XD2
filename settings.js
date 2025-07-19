@@ -6,7 +6,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "lucky~bItnHACI#VoQ67PHAt1rQW62MSeb8sWkCVHDvwosNCTyZ9Kal7ro",
+SESSION_ID: process.env.SESSION_ID || "lucky~uV0gBYhC#wEpsBywtJJw6XocnlZSVc5mpcgcMbFj9k53WiSBsEl0",
 // add your Session Id make sure it starts with lucky~
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
@@ -100,7 +100,7 @@ OWNER_NAME: process.env.OWNER_NAME || "Colliericc-Bots",
          PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
 // make false if want private mod
 
-        AUTO_TYPING: process.env.AUTO_TYPING || "false",
+        AUTO_TYPING: process.env.AUTO_TYPING || "true",
 // true for automatic show typing 
   
    READ_CMD: process.env.READ_CMD || "false",
